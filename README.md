@@ -1,4 +1,4 @@
-# MapReduce Job for Python mrjob
+# MapReduce Job in Python mrjob
 
 ## Installation
 Using pip or easy_install to download mrjob:
@@ -9,7 +9,7 @@ Using pip or easy_install to download mrjob:
 ## Run
 Local MapReduce
 
-	python wordcount.py test.txt
+	python wordcount.py example.txt
 	
 Hadoop MapReduce
 
@@ -18,5 +18,6 @@ Hadoop MapReduce
 	--jobconf mapreduce.job.maps=2 \
 	--jobconf mapreduce.job.reduces=1 \ 
 	-o hdfs:///OUTPUT PATH hdfs:///INPUT PATH
-
+## Output
+	
 
